@@ -153,3 +153,8 @@ MEDIA_ROOT = [
 
 LOGIN_REDIRECT_URL = 'sistema'
 LOGOUT_REDIRECT_URL = 'index'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
